@@ -37,9 +37,9 @@ output, print another prompt and accept a new line of input.
 command in /bin, /usr/bin/, /usr/local/bin/ and the current working directory
 is to be considered valid for testing.
 Your shell shall search in the following PATH order:
-1. Current working directory,
-2. /usr/local/bin
-3. /usr/bin
-4. /bin
+a. Current working directory,
+b. /usr/local/bin
+c. /usr/bin
+d. /bin
 Parameters may also be combined. For example, ps may be executed as: ps –aef or ps
 –a –e -f
